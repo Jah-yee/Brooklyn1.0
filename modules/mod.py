@@ -114,7 +114,7 @@ class Mod:
             await asyncio.sleep(2)
             await self.bot.delete_message(msg)
         except:
-            await self.bot.say(":x: An error accured! I cannot manage messages, therefor I cannot delete command messages!") 
+            await self.bot.say(":x: An error occurred! I cannot manage messages, therefor I cannot delete command messages!") 
 
     @commands.command(pass_context=True, no_pm=True)
     @checks.botcom()
